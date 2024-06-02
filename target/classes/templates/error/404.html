@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.orf">
+<head>
+<meta charset="UTF-8">
+<title>Página no encontrada</title>
+</head>
+<body>
+	<!-- 404 Error Text -->
+	<div class="text-center" style="text-align: center">
+		<h1 th:text="${status}"></h1>
+		<p class="lead text-gray-800 mb-5">Página no encontrada</p>
+		<hr>
+		<div th:text="${path}"></div>
+		<div th:text="${timestamp}"></div>
+		<hr>
+		<h2>
+			<a href="/">&larr; inicio</a>
+		</h2>
+	</div>
+</body>
+</html>

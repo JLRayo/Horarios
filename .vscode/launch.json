@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BackendAppsIesGregorioPrietoApplication<AppsIESGregorioPrieto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.iesgregorioprieto.web.BackendAppsIesGregorioPrietoApplication",
+            "projectName": "AppsIESGregorioPrieto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
